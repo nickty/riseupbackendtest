@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": [
+      "esnext"
+    ],
+    "allowJs": true,
+    "checkJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "isolatedModules": true,
+    "downlevelIteration": true,
+    "typeRoots": [ "./node_modules/@types"],
+    "emitDeclarationOnly": true,
+    "declaration": true,
+    "rootDir": "./src",
+    "outDir": "./types"
+  },
+  "include": [
+    "src"
+  ]
+}

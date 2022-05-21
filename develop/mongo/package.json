@@ -1,0 +1,26 @@
+{
+  "name": "@develop/mongo",
+  "private": true,
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "",
+    "build:watch": "",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "minimist": "^1.2.5",
+    "mkdirp": "^1.0.4",
+    "mongodb": "^3.6.10",
+    "slugify": "^1.2.6"
+  },
+  "devDependencies": {
+    "@packages/eslint-config": "workspace:~1.0.0",
+    "eslint": "~7.30.0"
+  }
+}
